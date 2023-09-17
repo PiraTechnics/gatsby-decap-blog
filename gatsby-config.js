@@ -9,15 +9,15 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Bard's Landing`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Devin Younge`,
+      summary: `A reader of (hopefully) good books, somewhere in the urban jungle of Los Angeles`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A blog about books`,
+    siteUrl: `https://tubular-cheesecake-3ca0e1.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `PiraTechnics`,
     },
   },
   plugins: [
@@ -118,7 +118,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-netlify-cms`,
