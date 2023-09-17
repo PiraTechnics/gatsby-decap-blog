@@ -1,6 +1,7 @@
 backend:
-  name: git-gateway
-  commit_messages:
+  name: github
+  repo: PiraTechnics/gatsby-decap-blog
+    commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
     delete: "Delete {{collection}} “{{slug}}”"
