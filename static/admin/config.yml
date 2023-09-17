@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: PiraTechnics/gatsby-decap-blog
-  branch: main # Branch to update (optional; defaults to master)
+  # branch: main # Branch to update (optional; defaults to master)
   # Uncomment Below to use Proxy for local development
   # Run proxy server with `npx netlify-cms-proxy-server`
   #name: proxy
