@@ -9,13 +9,13 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Bard's Landing`,
+    title: `Bard's Bookshelf`,
     author: {
       name: `Devin Younge`,
       summary: `A reader of (hopefully) good books, somewhere in the urban jungle of Los Angeles`,
     },
-    description: `A blog about books`,
-    siteUrl: `https://tubular-cheesecake-3ca0e1.netlify.app/`,
+    description: `A Blog of Verse and Versatility, Literary Reviews and Recitals`,
+    siteUrl: `https://bardsbookshelf.com/`,
     social: {
       twitter: `PiraTechnics`,
     },
