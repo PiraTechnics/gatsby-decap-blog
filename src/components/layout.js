@@ -6,7 +6,7 @@ import Header from "./header"
 const Layout = ({ location, title, description, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
-  let header
+  /*   let header
 
   if (isRootPath) {
     header = (
@@ -23,15 +23,24 @@ const Layout = ({ location, title, description, children }) => {
         {title}
       </Link>
     )
-  }
+  } */
 
   return (
-    <div>
+    <div style={{ background: "var(--bg-color-light)" }}>
       <Header />
       <div className="global-wrapper" data-is-root-path={isRootPath}>
-        <header className="global-header">{header}</header>
+        {/* <header className="global-header">{header}</header> */}
         <main>{children}</main>
-        <footer>© {new Date().getFullYear()} Devin Younge</footer>
+        <footer>
+          <div>© {new Date().getFullYear()} Devin Younge</div>
+          <a
+            style={{ fontSize: ".8em" }}
+            href="https://www.flaticon.com/free-icons/quill"
+            title="quill icons"
+          >
+            Quill icons created by Icongeek26 - Flaticon
+          </a>
+        </footer>
       </div>
     </div>
   )

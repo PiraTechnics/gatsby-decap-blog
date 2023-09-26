@@ -4,13 +4,13 @@ import { Image, Navbar, Col } from "react-bootstrap"
 import "@fontsource/metamorphous"
 import icon from "../images/icon.png"
 
-const headerPrimary = "#A767F1"
-const headerSecondary = "#FF8080"
+const headerPrimary = "#2D4B73"
+const headerSecondary = "#0D0D0D"
 
 const Header = () => {
   return (
-    <Navbar className="bg-body-secondary">
-      <Container fluid>
+    <Navbar style={{ background: "var(--bg-color-dark)" }}>
+      <Container fluid className="text-center">
         <Col>
           <Navbar.Brand href="/" className="text-center fs-2 fw-semibold">
             <Image fluid src={icon} className="header-icon" />
@@ -18,14 +18,18 @@ const Header = () => {
               className="align-bottom px-2"
               style={{
                 fontFamily: "Metamorphous",
-                background: `linear-gradient(to right, ${headerPrimary}, ${headerSecondary})`,
+                color: headerPrimary,
+                /*                 background: `linear-gradient(to right, ${headerPrimary}, ${headerSecondary})`,
                 WebkitTextFillColor: "transparent",
-                WebkitBackgroundClip: "text",
+                WebkitBackgroundClip: "text", */
               }}
             >
               Bard's Bookshelf
             </span>
           </Navbar.Brand>
+          <div style={{ fontFamily: "Metamorphous", fontSize: ".9em" }}>
+            A Blog of Verse and Versatility, Literary Reviews & Recitals
+          </div>
         </Col>
       </Container>
     </Navbar>
