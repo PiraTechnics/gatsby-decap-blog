@@ -1,5 +1,5 @@
 import * as React from "react"
-import icon from "../images/Quill.png"
+import icon from "../images/icon.png"
 
 const Brand = () => {
   return (
