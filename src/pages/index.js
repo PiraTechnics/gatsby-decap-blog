@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Hero from "../components/hero"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -29,6 +30,9 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle} description={siteDescription}>
+      <Hero description={siteDescription} />
+      <div className="text-xl font-semibold ">Latest Posts</div>
+      <hr className="mb-3" />
       <Content posts={posts} />
       <footer className="my-5">
         <hr className="py-2" />
@@ -55,6 +59,7 @@ const Content = ({ posts }) => {
             <img
               className="rounded-md"
               src="https://via.placeholder.com/360x240"
+              alt="placeholder"
             />
             <div className="self-stretch p-2 flex-col justify-start items-start gap-5 flex">
               <div className="self-stretch flex-col justify-start items-start gap-4 flex">
