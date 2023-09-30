@@ -29,47 +29,61 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle} description={siteDescription}>
-      <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
-
-          return (
-            <li key={post.fields.slug}>
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-              >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                  <small>{post.frontmatter.date}</small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
-              </article>
-            </li>
-          )
-        })}
-      </ol>
-      <footer>
-        <hr />
-        <Bio />
+      <Content posts={posts} />
+      <footer className="my-5">
+        <hr className="py-2" />
       </footer>
     </Layout>
   )
 }
 
 export default BlogIndex
+
+const Content = ({ posts }) => {
+  return (
+    <div className="flex flex-row flex-wrap gap-5 justify-center px-3">
+      {posts.map(post => {
+        const title = post.frontmatter.title || post.fields.slug
+        const description = post.frontmatter.description || post.exerpt
+        const date = post.frontmatter.date
+
+        return (
+          <div
+            key={post.fields.slug}
+            className="container max-w-sm min-w-min p-4 bg-white rounded-xl border border-gray-200 gap-4"
+          >
+            <img
+              className="rounded-md"
+              src="https://via.placeholder.com/360x240"
+            />
+            <div className="self-stretch p-2 flex-col justify-start items-start gap-5 flex">
+              <div className="self-stretch flex-col justify-start items-start gap-4 flex">
+                <div className="px-2.5 py-1 bg-indigo-500 bg-opacity-5 rounded-md justify-center items-center gap-1 inline-flex">
+                  <div className="text-sky-500 text-sm font-medium font-['Work Sans'] leading-tight">
+                    [Genre Placeholder]
+                  </div>
+                </div>
+                <Link to={post.fields.slug} itemProp="url">
+                  <div className="self-stretch text-gray-900 text-2xl font-semibold font-['Work Sans'] leading-7">
+                    {title}
+                    <div className="text-gray-900 text-base font-normal font-['Work Sans'] leading-normal">
+                      {description}
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="justify-start items-center gap-5 inline-flex">
+                <div className="text-neutral-400 text-base font-normal font-['Work Sans'] leading-normal">
+                  {date}
+                </div>
+              </div>
+            </div>
+          </div>
+        )
+      })}
+    </div>
+  )
+}
 
 /**
  * Head export to define metadata for the page
