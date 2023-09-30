@@ -1,5 +1,6 @@
 import * as React from "react"
 import Brand from "./brand"
+import { Navbar } from "flowbite-react"
 
 /* const Utils = () => {
   return (
@@ -20,7 +21,7 @@ import Brand from "./brand"
   )
 } */
 
-const PageNav = () => {
+/* const PageNav = () => {
   return (
     <div className="justify-start items-center gap-5 flex">
       <div className="h-10 justify-center items-end gap-5 flex">
@@ -57,16 +58,39 @@ const PageNav = () => {
       </div>
     </div>
   )
-}
+} */
 
 const Header = () => {
   return (
-    <div className="ps-6 h-24 py-4 flex-col justify-start items-center gap-2.5 inline-flex">
+    /*     <div className="ps-6 h-24 py-4 flex-col justify-start items-center gap-2.5 inline-flex">
       <div className="justify-start items-start gap-24 inline-flex">
         <Brand />
         <PageNav />
       </div>
-    </div>
+    </div> */
+    <Navbar fluid rounded>
+      <Navbar.Brand className="sm:ps-4">
+        <Brand />
+      </Navbar.Brand>
+      <Navbar.Toggle />
+      <Navbar.Collapse>
+        <Navbar.Link href="/" className="text-base">
+          Home
+        </Navbar.Link>
+        <Navbar.Link href="/" className="text-base">
+          Blog
+        </Navbar.Link>
+        <Navbar.Link href="/" className="text-base">
+          Single Post
+        </Navbar.Link>
+        <Navbar.Link href="/" className="text-base">
+          Pages
+        </Navbar.Link>
+        <Navbar.Link href="/" className="text-base">
+          Contact
+        </Navbar.Link>
+      </Navbar.Collapse>
+    </Navbar>
   )
 }
 

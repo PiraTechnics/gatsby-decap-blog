@@ -31,8 +31,10 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle} description={siteDescription}>
       <Hero description={siteDescription} />
-      <div className="text-xl font-semibold ">Latest Posts</div>
-      <hr className="mb-3" />
+      <div className="px-4 md:px-8 lg:px-16">
+        <div className="text-xl font-semibold">Latest Posts</div>
+        <hr className="mb-3" />
+      </div>
       <Content posts={posts} />
       <footer className="my-5">
         <hr className="py-2" />
