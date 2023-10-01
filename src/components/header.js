@@ -68,25 +68,25 @@ const Header = () => {
         <PageNav />
       </div>
     </div> */
-    <Navbar fluid rounded>
-      <Navbar.Brand className="sm:ps-4">
+    <Navbar fluid rounded className="pt-4 sm:px-4 md:px-8 lg:px-16">
+      <Navbar.Brand>
         <Brand />
       </Navbar.Brand>
       <Navbar.Toggle />
-      <Navbar.Collapse>
-        <Navbar.Link href="/" className="text-base">
+      <Navbar.Collapse className="mt-2">
+        <Navbar.Link href="/" className="text-lg">
           Home
         </Navbar.Link>
-        <Navbar.Link href="/" className="text-base">
+        <Navbar.Link href="/" className="text-lg">
           Blog
         </Navbar.Link>
-        <Navbar.Link href="/" className="text-base">
+        <Navbar.Link href="/" className="text-lg">
           Single Post
         </Navbar.Link>
-        <Navbar.Link href="/" className="text-base">
+        <Navbar.Link href="/" className="text-lg">
           Pages
         </Navbar.Link>
-        <Navbar.Link href="/" className="text-base">
+        <Navbar.Link href="/" className="text-lg">
           Contact
         </Navbar.Link>
       </Navbar.Collapse>

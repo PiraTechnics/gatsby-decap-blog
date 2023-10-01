@@ -4,7 +4,7 @@ const Hero = ({ description }) => {
   console.log(description)
 
   return (
-    <section className="bg-cover bg-no-repeat bg-[url('../images/hero.jpg')] bg-gray-600 bg-blend-multiply sm:mx-4 md:mx-8 lg:mx-16 mb-8 sm:rounded-md">
+    <section className="bg-cover bg-no-repeat bg-[url('../images/hero.jpg')] bg-gray-600 bg-blend-multiply sm:mx-2 md:mx-4 lg:mx-16 mb-8 sm:rounded-md">
       <div className="px-4 mx-auto text-center py-24 lg:py-36 relative">
         <h1 className="mb-4 text-2xl font-semibold tracking-tight leading-none text-white sm:text-3xl md:text-4xl lg:text-5xl">
           {description}

@@ -30,7 +30,7 @@ const Layout = ({ location, title, description, children }) => {
         <Header />
         {/* <div className="global-wrapper" data-is-root-path={isRootPath}> */}
         {/* <header className="global-header">{header}</header> */}
-        <main className="mt-2 sm:mt-8">{children}</main>
+        <main className="mt-2 sm:mt-6">{children}</main>
         <Footer />
       </div>
     </div>
