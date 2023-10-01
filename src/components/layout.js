@@ -26,7 +26,7 @@ const Layout = ({ location, title, description, children }) => {
 
   return (
     <div>
-      <div className="lg:container lg:mx-auto">
+      <div className="lg:container lg:mx-auto sm:px-4 md:px-8 lg:px-16">
         <Header />
         {/* <div className="global-wrapper" data-is-root-path={isRootPath}> */}
         {/* <header className="global-header">{header}</header> */}

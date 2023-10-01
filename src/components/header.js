@@ -68,7 +68,7 @@ const Header = () => {
         <PageNav />
       </div>
     </div> */
-    <Navbar fluid rounded className="pt-4 sm:px-4 md:px-8 lg:px-16">
+    <Navbar fluid rounded className="pt-4">
       <Navbar.Brand>
         <Brand />
       </Navbar.Brand>
