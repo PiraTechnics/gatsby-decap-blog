@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Hero from "../components/hero"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -52,17 +53,29 @@ const Content = ({ posts }) => {
         const title = post.frontmatter.title || post.fields.slug
         const description = post.frontmatter.description || post.exerpt
         const date = post.frontmatter.date
+        const thumbnail = post.frontmatter.featured
 
         return (
           <div
             key={post.fields.slug}
             className="container max-w-sm min-w-min p-4 bg-white rounded-xl border border-gray-200 gap-4"
           >
-            <img
-              className="rounded-md"
-              src="https://via.placeholder.com/360x240"
-              alt="placeholder"
-            />
+            <div class="thumbnail-wrapper flex justify-center">
+              {thumbnail ? (
+                <GatsbyImage
+                  className="rounded-md"
+                  fluid={thumbnail.childImageSharp.fluid}
+                  image={getImage(thumbnail.childImageSharp)}
+                  alt={title}
+                />
+              ) : (
+                <img
+                  className="rounded-md"
+                  src="https://via.placeholder.com/360x240"
+                  alt="placeholder"
+                />
+              )}
+            </div>
             <div className="self-stretch p-2 flex-col justify-start items-start gap-5 flex">
               <div className="self-stretch flex-col justify-start items-start gap-4 flex">
                 <div className="px-2.5 py-1 bg-indigo-500 bg-opacity-5 rounded-md justify-center items-center gap-1 inline-flex">
@@ -117,6 +130,11 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          featured {
+            childImageSharp {
+              gatsbyImageData(height: 240, placeholder: BLURRED)
+            }
+          }
         }
       }
     }
