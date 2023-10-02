@@ -12,12 +12,13 @@ module.exports = {
     title: `Bard's Bookshelf`,
     author: {
       name: `Devin Younge`,
-      summary: `A reader of (hopefully) good books, somewhere in the urban jungle of Los Angeles`,
+      summary: `Web Developer, Tabletop Role Player, Literary Enthusiast and coffee addict. He lives in Los Angeles, California with his partner and their cat, Espresso.`,
     },
     description: `A Blog of Verse and Versatility, Literary Reviews and Recitals`,
     siteUrl: `https://bardsbookshelf.com/`,
     social: {
-      twitter: `PiraTechnics`,
+      bluesky: `PiraTechnics`,
+      instagram: `PiraTechnics`,
     },
   },
   plugins: [

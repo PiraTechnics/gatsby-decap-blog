@@ -19,7 +19,8 @@ const Bio = () => {
             summary
           }
           social {
-            twitter
+            bluesky
+            instagram
           }
         }
       }
@@ -27,30 +28,47 @@ const Bio = () => {
   `)
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
-  const author = data.site.siteMetadata?.author
-  const social = data.site.siteMetadata?.social
+  const author = data.site.siteMetadata.author
+  const social = data.site.siteMetadata.social
 
   return (
-    <div className="bio">
-      <StaticImage
-        className="bio-avatar"
-        layout="fixed"
-        formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.jpg"
-        width={50}
-        height={50}
-        quality={95}
-        alt="Profile picture"
-      />
-      {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> -- {author?.summary || null}
-          {` `} -- {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Follow on Twitter
+    <div className="bio flex flex-row mb-6 justify-center">
+      <div className="me-6 flex flex-col items-center">
+        <StaticImage
+          className="rounded-full"
+          layout="fixed"
+          formats={["auto", "webp", "avif"]}
+          src="../images/profile-pic.jpg"
+          width={75}
+          height={75}
+          quality={100}
+          alt="Profile picture"
+        />
+        <div className="text-2xl font-bold font-allura">{author.name}</div>
+      </div>
+      <div className="self-center" style={{ maxWidth: "50%" }}>
+        <p>{author?.summary || null}</p>
+        <div className="pt-2">
+          You can find him on{" "}
+          <a
+            className="text-sky-500 hover:text-sky-800"
+            href={`https://bsky.app/profile/${social.bluesky}.bsky.social`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            Bluesky
+          </a>{" "}
+          and{" "}
+          <a
+            className="text-sky-500 hover:text-sky-800"
+            href={`https://instagram.com/${social.instagram}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            Instagram
           </a>
-        </p>
-      )}
+        </div>
+      </div>
     </div>
   )
 }
