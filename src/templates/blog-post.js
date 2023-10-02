@@ -44,68 +44,60 @@ const BlogPostTemplate = ({
       </div>
       <hr className="mb-4" />
       <Bio />
-      <footer>
-        <nav className="blog-post-nav">
-          <ul
-            style={{
-              display: `flex`,
-              flexWrap: `wrap`,
-              justifyContent: `space-between`,
-              listStyle: `none`,
-              padding: 0,
-            }}
-          >
-            <li>
-              {previous && (
-                <Link to={previous.fields.slug} rel="prev">
-                  <Button pill outline gradientDuoTone="purpleToBlue">
-                    <svg
-                      className="w-6 h-6 text-black dark:text-white inline"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 8 14"
-                    >
-                      <path
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M7 1 1.3 6.326a.91.91 0 0 0 0 1.348L7 13"
-                      />
-                    </svg>
-                    <div className="text-lg">{previous.frontmatter.title}</div>
-                  </Button>
-                </Link>
-              )}
-            </li>
-            <li>
-              {next && (
-                <Link to={next.fields.slug} rel="next">
-                  <Button pill outline gradientDuoTone="purpleToBlue">
-                    <div className="text-lg">{next.frontmatter.title}</div>
-                    <svg
-                      className="w-6 h-6 text-black dark:text-white inline"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 8 14"
-                    >
-                      <path
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1"
-                      />
-                    </svg>
-                  </Button>
-                </Link>
-              )}
-            </li>
-          </ul>
-        </nav>
-      </footer>
+      <nav className="blog-post-nav pt-4 flex justify-between">
+        {previous && (
+          <Link to={previous.fields.slug} rel="prev">
+            <Button size={"sm"} pill outline gradientDuoTone="cyanToBlue">
+              <svg
+                className="w-6 h-6 text-black dark:text-white inline"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 8 14"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M7 1 1.3 6.326a.91.91 0 0 0 0 1.348L7 13"
+                />
+              </svg>
+              <div className="text-base px-2">
+                {previous.frontmatter.title.length < 20
+                  ? previous.frontmatter.title
+                  : previous.frontmatter.title.slice(0, 18) + "..."}
+              </div>
+            </Button>
+          </Link>
+        )}
+        {next && (
+          <Link to={next.fields.slug} rel="next">
+            <Button size={"sm"} pill outline gradientDuoTone="cyanToBlue">
+              <div className="text-base px-2">
+                {next.frontmatter.title.length < 20
+                  ? next.frontmatter.title
+                  : next.frontmatter.title.slice(0, 18) + "..."}
+              </div>
+              <svg
+                className="w-4 h-4 text-black dark:text-white inline"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 8 14"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1"
+                />
+              </svg>
+            </Button>
+          </Link>
+        )}
+      </nav>
     </Layout>
   )
 }

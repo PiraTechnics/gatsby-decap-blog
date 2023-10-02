@@ -12,7 +12,7 @@ module.exports = {
     title: `Bard's Bookshelf`,
     author: {
       name: `Devin Younge`,
-      summary: `Web Developer, Tabletop Role Player, Literary Enthusiast and coffee addict. He lives in Los Angeles, California with his partner and their cat, Espresso.`,
+      summary: `Web Developer, Tabletop Role Player, Literary Enthusiast and coffee addict. He lives in Los Angeles, California with his partner, and their cat.`,
     },
     description: `A Blog of Verse and Versatility, Literary Reviews and Recitals`,
     siteUrl: `https://bardsbookshelf.com/`,

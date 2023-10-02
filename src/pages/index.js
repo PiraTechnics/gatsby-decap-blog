@@ -37,9 +37,6 @@ const BlogIndex = ({ data, location }) => {
         <hr className="mb-3" />
       </div>
       <Content posts={posts} />
-      <footer className="my-5">
-        <hr className="py-2" />
-      </footer>
     </Layout>
   )
 }
@@ -51,6 +48,8 @@ const Content = ({ posts }) => {
     <div className="flex flex-row flex-wrap gap-5 justify-center px-3">
       {posts.map(post => {
         const title = post.frontmatter.title || post.fields.slug
+        const author = post.frontmatter.author || ""
+        const tags = post.frontmatter.tags
         const description = post.frontmatter.description || post.exerpt
         const date = post.frontmatter.date
         const thumbnail = post.frontmatter.featured
@@ -60,7 +59,7 @@ const Content = ({ posts }) => {
             key={post.fields.slug}
             className="container max-w-sm min-w-min p-4 bg-white rounded-xl border border-gray-200 gap-4"
           >
-            <div class="thumbnail-wrapper flex justify-center">
+            <div className="thumbnail-wrapper flex justify-center">
               {thumbnail ? (
                 <GatsbyImage
                   className="rounded-md"
@@ -77,18 +76,28 @@ const Content = ({ posts }) => {
               )}
             </div>
             <div className="self-stretch p-2 flex-col justify-start items-start gap-5 flex">
-              <div className="self-stretch flex-col justify-start items-start gap-4 flex">
-                <div className="px-2.5 py-1 bg-indigo-500 bg-opacity-5 rounded-md justify-center items-center gap-1 inline-flex">
-                  <div className="text-sky-500 text-sm font-medium font-['Work Sans'] leading-tight">
-                    [Genre Placeholder]
-                  </div>
+              <div className="self-stretch flex-col gap-2 flex">
+                <div className="px-2.5 py-1 rounded-md justify-center items-center gap-4 flex flex-row">
+                  {tags &&
+                    React.Children.toArray(
+                      tags.map(tag => {
+                        return (
+                          <div className="text-sky-500 text-lg font-medium font-serif  bg-slate-300 bg-opacity-50 rounded-md px-3 hover:underline decoration-sky-500">
+                            <a href="/">{tag}</a>
+                          </div>
+                        )
+                      })
+                    )}
                 </div>
                 <Link to={post.fields.slug} itemProp="url">
-                  <div className="self-stretch text-gray-900 text-2xl font-semibold font-['Work Sans'] leading-7">
+                  <div className="self-stretch text-gray-900 text-2xl font-semibold font-serif leading-7">
                     {title}
-                    <div className="text-gray-900 text-base font-normal font-['Work Sans'] leading-normal">
-                      {description}
-                    </div>
+                  </div>
+                  <div className=" mb-4 text-gray-900 text-base font-medium italic font-serif leading-normal">
+                    {author}
+                  </div>
+                  <div className="text-gray-900 text-base font-normal font-serif leading-normal">
+                    {description}
                   </div>
                 </Link>
               </div>
@@ -129,6 +138,8 @@ export const pageQuery = graphql`
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title
+          author
+          tags
           description
           featured {
             childImageSharp {

@@ -3,7 +3,8 @@ import Brand from "./brand"
 
 const Footer = () => {
   return (
-    <footer className="container">
+    <footer className="container my-9">
+      <hr className="py-3" />
       <div className="flex justify-center mb-5">
         <div className="text-center">
           <Brand />

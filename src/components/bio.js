@@ -33,7 +33,7 @@ const Bio = () => {
 
   return (
     <div className="bio flex flex-row mb-6 justify-center">
-      <div className="me-6 flex flex-col items-center">
+      <div className="me-6 flex flex-col items-center justify-center">
         <StaticImage
           className="rounded-full"
           layout="fixed"
