@@ -1,10 +1,10 @@
 backend:
-  #name: github
-  #repo: PiraTechnics/gatsby-decap-blog
+  name: github
+  repo: PiraTechnics/gatsby-decap-blog
   # Uncomment Below to use Proxy for local development
   # Run proxy server with `npx netlify-cms-proxy-server`
-  name: proxy
-  proxy_url: http://localhost:8081/api/v1
+  #name: proxy
+  #proxy_url: http://localhost:8081/api/v1
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
