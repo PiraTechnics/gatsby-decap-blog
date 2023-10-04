@@ -1,8 +1,8 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Button } from "flowbite-react"
 
+import Article from "../components/article"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -12,37 +12,10 @@ const BlogPostTemplate = ({
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
-  const featuredImage = post.frontmatter.featured
 
   return (
     <Layout location={location} title={siteTitle}>
-      <div className="container">
-        <article
-          className="blog-post"
-          itemScope
-          itemType="http://schema.org/Article"
-        >
-          <header>
-            <h1 itemProp="headline">{post.frontmatter.title}</h1>
-            <p className="text-sm">{post.frontmatter.author}</p>
-            <p className="text-sm">{post.frontmatter.date}</p>
-          </header>
-          {featuredImage && (
-            <section className="flex justify-center mb-10">
-              <GatsbyImage
-                fluid={featuredImage.childImageSharp.fluid}
-                image={getImage(featuredImage.childImageSharp)}
-                alt={post.frontmatter.title}
-              />
-            </section>
-          )}
-          <section
-            dangerouslySetInnerHTML={{ __html: post.html }}
-            itemProp="articleBody"
-          />
-        </article>
-      </div>
-      <hr className="mb-4" />
+      <Article post={post} />
       <Bio />
       <nav className="blog-post-nav pt-4 flex justify-between">
         {previous && (

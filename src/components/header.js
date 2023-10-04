@@ -77,17 +77,8 @@ const Header = () => {
         <Navbar.Link href="/" className="text-lg">
           Home
         </Navbar.Link>
-        <Navbar.Link href="/" className="text-lg">
-          Blog
-        </Navbar.Link>
-        <Navbar.Link href="/" className="text-lg">
-          Single Post
-        </Navbar.Link>
-        <Navbar.Link href="/" className="text-lg">
-          Pages
-        </Navbar.Link>
-        <Navbar.Link href="/" className="text-lg">
-          Contact
+        <Navbar.Link href="/all" className="text-lg">
+          All Posts
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
