@@ -1,6 +1,6 @@
 ---
 title: A Wizard of Earthsea
-author: Ursula K Le Guin
+author: Ursula K LeGuin
 tags:
   - Fiction
   - Fantasy
