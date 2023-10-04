@@ -140,8 +140,8 @@ article * p {
 
 article * ul,
 article * ol {
-  margin-left: var(--spacing-0);
-  margin-right: var(--spacing-0);
+  /*   margin-left: var(--spacing-0);
+  margin-right: var(--spacing-0); */
   padding: var(--spacing-0);
   margin-bottom: var(--spacing-8);
   list-style-position: outside;
@@ -163,14 +163,14 @@ article * li *:last-child {
 }
 
 article * li > ul {
-  margin-left: var(--spacing-8);
+  /* margin-left: var(--spacing-8); */
   margin-top: calc(var(--spacing-8) / 2);
 }
 
 article * blockquote {
   color: var(--color-text-light);
-  margin-left: calc(-1 * var(--spacing-6));
-  margin-right: var(--spacing-8);
+  /* margin-left: calc(-1 * var(--spacing-6)); */
+  /* margin-right: var(--spacing-8); */
   padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
   border-left: var(--spacing-1) solid var(--color-primary);
   font-size: var(--fontSize-2);

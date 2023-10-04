@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import { Button } from "flowbite-react"
 
 import Article from "../components/article"
+import Sidebar from "../components/sidebar"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -16,6 +17,7 @@ const BlogPostTemplate = ({
   return (
     <Layout location={location} title={siteTitle}>
       <Article post={post} />
+      {/* <Sidebar /> */}
       <Bio />
       <nav className="blog-post-nav pt-4 flex justify-between">
         {previous && (

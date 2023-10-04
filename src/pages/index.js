@@ -57,7 +57,7 @@ const Content = ({ posts }) => {
         return (
           <div
             key={post.fields.slug}
-            className="container max-w-sm min-w-min p-4 bg-white rounded-xl border border-gray-200 gap-4"
+            className="container lg:max-w-sm min-w-min p-4 bg-white rounded-xl border border-gray-200 gap-4"
           >
             <div className="thumbnail-wrapper flex justify-center">
               {thumbnail ? (
