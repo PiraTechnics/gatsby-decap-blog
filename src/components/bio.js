@@ -32,7 +32,7 @@ const Bio = () => {
   const social = data.site.siteMetadata.social
 
   return (
-    <div class="content-wrapper">
+    <div className="content-wrapper">
       <hr className="mb-4" />
       <div className="bio flex flex-row mb-6 justify-center">
         <div className="me-6 flex flex-col items-center justify-center">

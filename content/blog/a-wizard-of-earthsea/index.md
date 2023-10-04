@@ -33,8 +33,6 @@ The boy, whose true name we learn is *Ged*, has a brush with the darker side of 
 
 And so begins the globetrotting adventures of Sparrowhawk. Things may get a bit hard to follow without a map, but thankfully, there’s a handy set of them on the [author’s website](https://www.ursulakleguin.com/maps-of-earthsea). Okay, onward to ADVENTURE!
 
-![She-Ra adventure gif](adventure-shera.gif)
-
 First, our boy makes it to Roke, where he quickly makes exactly 1 best friend, and one hated rival. The twist is, of course, that those two are friends themselves. His rival, Jasper, seems friendly enough on the surface, but gives off some snobbish vibes, which the rustic-born Ged immediately takes personally. His best friend Vetch, on the other hand, has a much more laid-back attitude, and seems to want nothing more than to eat snacks and vibe – very relatable.
 
 One day, the rivalry comes to a head, and Ged ends up releasing the same horrifying shadow creature from before, while trying to one-up Jasper. The thing, the nature of which is never fully explained, immediately lunges at Ged and starts trying to claw his face off – did I mention this was written as a children’s book? The heroic efforts of the Archmage of the school drive the creature away, but at the cost of his life.
@@ -42,7 +40,5 @@ One day, the rivalry comes to a head, and Ged ends up releasing the same horrify
 *A Wizard of Earthsea* then fully shifts gears into a redemption arc, with Ged recovering, completing his studies, and becoming a journeyman wizard, all the while trying to evade the shadow creature that ceaselessly hunts him. Along the way he bamboozles a dragon, binding it with his knowledge of its true name, escapes from the machinations of an eldritch power trapped in a stone, transforms into a hawk and nearly gets stuck (Earthsea animal transformations apparently operate on Animorphs rules), and seeks out his old mentor Ogion for advice on evading the shadow.
 
 When the old wizard tells him he must face the shadow instead of fleeing it, he does just that, flipping the script and pursuing his tormentor across oceans and seas in a whirlwind tour of Earthsea. He runs into his old pal Vetch on his home island of Iffish, and together they set out to destroy the shadow once and for all. The end of the book takes us into even stranger territory, with the two friends traveling literally off the map, and setting up a final confrontation in an upside-down, [World’s-End kind of place](https://en.wikipedia.org/wiki/List_of_locations_in_Pirates_of_the_Caribbean#Davy_Jones'_Locker) that appears to Vetch only as an endless sea, but to Ged as a beach he can walk across. There, he finds his shadow, in a twist, names it his own name, and merges with it to become whole…yeah, it was a little hard for me to follow too.
-
-![Jack Sparrow confused, then running](giphy.gif)
 
 The overarching theme of Earthsea seems to be that violence is often not the answer, and with friends and resourcefulness, one can overcome any obstacle. There’s a fair bit of symbolism in the nature of the shadow, its connection to Ged, and the fate of characters that are shown to have darkness in their hearts. Overall, an enjoyable story and a different kind of fantasy that we still don’t see enough of, in my opinion.

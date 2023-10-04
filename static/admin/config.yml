@@ -1,6 +1,8 @@
 backend:
-  name: github
-  repo: PiraTechnics/gatsby-decap-blog
+  name: git-gateway
+  branch: master
+  #name: github
+  #repo: PiraTechnics/gatsby-decap-blog
   # Uncomment Below to use Proxy for local development
   # Run proxy server with `npx netlify-cms-proxy-server`
   #name: proxy
@@ -13,9 +15,10 @@ backend:
     deleteMedia: "[skip ci] Delete “{{path}}”"
   # branch: main # Branch to update (optional; defaults to master)
 
+local_backend: true
 publish_mode: editorial_workflow
-media_folder: static/img
-public_folder: /img
+media_folder: static/assets
+public_folder: /assets
 
 collections:
   - name: "blog"
