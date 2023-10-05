@@ -33,6 +33,8 @@ The boy, whose true name we learn is *Ged*, has a brush with the darker side of 
 
 And so begins the globetrotting adventures of Sparrowhawk. Things may get a bit hard to follow without a map, but thankfully, there’s a handy set of them on the [author’s website](https://www.ursulakleguin.com/maps-of-earthsea). Okay, onward to ADVENTURE!
 
+![she-ra adventure](adventure-shera.gif "She-Ra Adventure")
+
 First, our boy makes it to Roke, where he quickly makes exactly 1 best friend, and one hated rival. The twist is, of course, that those two are friends themselves. His rival, Jasper, seems friendly enough on the surface, but gives off some snobbish vibes, which the rustic-born Ged immediately takes personally. His best friend Vetch, on the other hand, has a much more laid-back attitude, and seems to want nothing more than to eat snacks and vibe – very relatable.
 
 One day, the rivalry comes to a head, and Ged ends up releasing the same horrifying shadow creature from before, while trying to one-up Jasper. The thing, the nature of which is never fully explained, immediately lunges at Ged and starts trying to claw his face off – did I mention this was written as a children’s book? The heroic efforts of the Archmage of the school drive the creature away, but at the cost of his life.
