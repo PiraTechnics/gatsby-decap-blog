@@ -9,6 +9,8 @@ date: 2023-10-04T21:23:19.831Z
 featured: 81vxgpk9yfl._sl1500_.jpg
 description: An unorthodox, timesless coming-of-age fantasy novel
 ---
+**W﻿ARNING: There be spoilers ahead! Don't read any further if you'd rather not know the plot!**
+
 A Wizard of Earthsea is the first of the series of epic children’s (teenager’s, YA even?) fantasy, set in the water world known, aptly enough, as “Earthsea.” I’ve always considered timelessness to be a mark of good fantasy – and Earthsea is no exception. I have to be honest, when I first picked a new hardcover of this book, I had no idea it was such an early entry in the fantasy genre. Only once I finished it and began pondering this review did I look up the publication date – nearly spitting out my coffee – to note that this book came out **IN FREAKIN 1968**. 
 
 Wow, okay, I’m good.
