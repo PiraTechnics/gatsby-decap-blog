@@ -12,8 +12,8 @@ const Article = ({ post }) => {
     >
       <header>
         <h1 itemProp="headline">{post.frontmatter.title}</h1>
-        <p className="text-sm">{post.frontmatter.author}</p>
-        <p className="text-sm">{post.frontmatter.date}</p>
+        <div className="text-xl italic mb-2">by {post.frontmatter.author}</div>
+        <div className="text-md mb-8">{post.frontmatter.date}</div>
       </header>
       {featuredImage && (
         <section className="flex justify-center mb-10">

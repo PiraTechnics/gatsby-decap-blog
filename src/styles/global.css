@@ -211,6 +211,11 @@ article * a:hover,
   text-decoration: none;
 }
 
+/* Article Images */
+article * img {
+  margin: auto;
+}
+
 /* Custom classes */
 
 .blog-post header h1 {
