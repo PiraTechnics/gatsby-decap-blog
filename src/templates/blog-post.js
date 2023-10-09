@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import { Button } from "flowbite-react"
 
 import Article from "../components/article"
-import Sidebar from "../components/sidebar"
+//import Sidebar from "../components/sidebar"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
