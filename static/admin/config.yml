@@ -23,6 +23,7 @@ collections:
     media_folder: ""
     public_folder: ""
     path: "{{title}}/index"
+    # Comment out the following 2 lines to enable preview pane in CMS editor
     editor:
       preview: false
     fields:
