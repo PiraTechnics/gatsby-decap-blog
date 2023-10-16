@@ -16,9 +16,7 @@ Part 1 (the first third) of the book take us on a journey from the Great Depress
 
 Part 2 covers the election of Donald Trump and the crystalization of the Republican Party and American Conservatism into an openly facistic, white-supremacist embracing movment. Diving into much more detail of the four years (that certainly felt like at least a decade), Richardson documents key events in the Trump presidency that swung the cultural conversation, shattered preestablished norms, and nearly resulted in the overthrow of American democracy.
 
-Part 3 treads historical ground once again, tying many moments and key figures (including Lincoln and the Founding Fathers) into the narratives of today. The book ends on a discussion of current events, and n
-
-
+Part 3 treads historical ground once again, tying many moments and key figures (including Lincoln and the Founding Fathers) into the narratives of today. Drawing on a continuous line, Riachardson lays out the defining moments in American History, when those fighting for equal rights and protection under the law called upon the USA to fufill the promises of the Declaration of Independence. The book ends on a discussion of current events, and notes that is is up to us (as in all of us) to decide and act to write the future -- stating quite clearly, that we are in one of these defining moments once again.
 
 Detailed, sourced, and explained in a refreshingly factual manner, Richardson's narrative lays out the descent of the Republican party from a legitimate 
 
