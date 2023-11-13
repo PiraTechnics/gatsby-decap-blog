@@ -1,6 +1,7 @@
 import * as React from "react"
 import Header from "./header"
 import Footer from "./footer"
+import ThemeToggle from "./ThemeToggle"
 
 const Layout = ({ location, title, description, children }) => {
   //const rootPath = `${__PATH_PREFIX__}/`
@@ -28,6 +29,7 @@ const Layout = ({ location, title, description, children }) => {
     <div>
       <div className="lg:container lg:mx-auto px-4 md:px-8 lg:px-16">
         <Header />
+        <ThemeToggle />
         {/* <div className="global-wrapper" data-is-root-path={isRootPath}> */}
         {/* <header className="global-header">{header}</header> */}
         <main className="mt-2 sm:mt-6">{children}</main>

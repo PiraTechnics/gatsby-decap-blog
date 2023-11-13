@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-import { Button } from "flowbite-react"
 
 import Article from "../components/article"
 //import Sidebar from "../components/sidebar"
@@ -22,7 +21,7 @@ const BlogPostTemplate = ({
       <nav className="blog-post-nav pt-4 flex justify-between">
         {previous && (
           <Link to={previous.fields.slug} rel="prev">
-            <Button size={"sm"} pill outline gradientDuoTone="cyanToBlue">
+            {/*             <Button size={"sm"} pill outline gradientDuoTone="cyanToBlue">
               <svg
                 className="w-6 h-6 text-black dark:text-white inline"
                 aria-hidden="true"
@@ -43,12 +42,12 @@ const BlogPostTemplate = ({
                   ? previous.frontmatter.title
                   : previous.frontmatter.title.slice(0, 18) + "..."}
               </div>
-            </Button>
+            </Button> */}
           </Link>
         )}
         {next && (
           <Link to={next.fields.slug} rel="next">
-            <Button size={"sm"} pill outline gradientDuoTone="cyanToBlue">
+            {/*             <Button size={"sm"} pill outline gradientDuoTone="cyanToBlue">
               <div className="text-base px-2">
                 {next.frontmatter.title.length < 20
                   ? next.frontmatter.title
@@ -69,7 +68,7 @@ const BlogPostTemplate = ({
                   d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1"
                 />
               </svg>
-            </Button>
+            </Button> */}
           </Link>
         )}
       </nav>

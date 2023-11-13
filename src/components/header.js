@@ -1,6 +1,6 @@
 import * as React from "react"
 import Brand from "./brand"
-import { Navbar } from "flowbite-react"
+//import { Navbar } from "flowbite-react"
 
 /* const Utils = () => {
   return (
@@ -68,7 +68,7 @@ const Header = () => {
         <PageNav />
       </div>
     </div> */
-    <Navbar fluid rounded className="pt-4">
+    /*     <Navbar fluid rounded className="pt-4">
       <Navbar.Brand>
         <Brand />
       </Navbar.Brand>
@@ -81,7 +81,8 @@ const Header = () => {
           All Posts
         </Navbar.Link>
       </Navbar.Collapse>
-    </Navbar>
+    </Navbar> */
+    <div>Coming soooon</div>
   )
 }
 
