@@ -12,13 +12,15 @@ description: A dark fantasy rooted in polish folkore, and a story as winding and
 ---
 Okay, strap yourselves in. In this review, we’re journeying Into the Woods, deep under the dark canopies where strange things sleep, and ancient entities watch for errant travelers. It is a dangerous path, and we are likely to be changed before we reach the other side, if we reach it at all!
 
+
+
+![Silhouette of a woman with a ball gown from behind, running through a creepy forest](https://tenor.com/view/horror-running-dress-woods-creepy-gif-5706359.gif "♫ Into the woods ♫")
+
 Just kidding, we’re reviewing Uprooted, the Dark Fantasy novel by author Naomi Novik. Although, you could be forgiven for mixing those two up, with how lengthy and oftentimes meandering the story flows. As per usual, a big old **SPOILER WARNING** for those of you who haven’t read the book – go no further! Or, read on if you like; I’m not your mom.
 
 Also, a brief **Content Warning**: Body Horror, mentions of rape and violence.
 
 Allright, let’s get right into things: I found this book….*frustrating*. There are a load of good things in here, elements that I enjoyed, and some genuinely creative descriptions that really stuck in my head. But, there were some MASSIVE problems for me, which really soured the reading experience. First up…
-
-
 
 ## The Story
 
@@ -27,6 +29,8 @@ The story begins as a slow burn, described in a first-person narrative by our he
 The local lord, a wizard that is known to the villagers simply as “The Dragon”, is spoken of with almost as much hugh and fear as the wood, and we learn the reason for this almost immediately. Disdaining to spend any more than the bare minimum of time outside his tower, so little is known about their wizard, except for his demand for very specific tribute. Every ten years, he chooses a village girl from those born in another, specific year, and forces them to come with him to his tower.
 
 Okay, I know what you’re thinking already – classic fairy tail dragon disguised as a wizard, OR creepy, semi-immortal old man using his lordship for unsavory purposes, right?
+
+![Red Dragon with cherry in mouth, flicking tongue suggestively](https://tenor.com/view/dragon-rero-rero-gif-24788048.gif "Netflix and chill? I've got the new season of 'House of the Dragon'")
 
 Wrong, but we’ll get there later.
 
@@ -40,8 +44,6 @@ The story goes on from there, giving us glimpses of the wider world, the country
 
 By the end of the book, I was just READY for it to be done. The story seemed to drag on for an incredibly long time. There was a lot to read,  at **435** pages, and to be honest, the book probably should have been a third or more shorter. A big part of this was…
 
-
-
 ## The Pacing
 
 *Uprooted* seemed all over the place. After setting the initial scene, it inched by, giving us only glimpses of what was to come as Angie started learning magic and proving herself in key moments. But then, *The Palace Chapters…..*
@@ -52,27 +54,21 @@ I’m sure this wasn’t intentional, but it felt like every time Angie (with or
 
 Aaaaand then about five chapters and hundreds of bodies later, we get this gem:
 
-
-
 > “My face ached as if she’d struck me, with a sharp hollow pressure above the bridge of my nose, familiar. ‘The Wood’, I said out loud.
 >
 > ‘What?’ Sarkan said.
 >
 > ‘The Wood,’ I said. ‘The Wood is in her.’ Every spell we’d cast, every purging, the holy relics, every trial: none of them mattered. I was suddenly sure. That had been the Wood looking back at me. The Wood had found a way to hide.”
->
->
 
 If Uprooted were a game, this is the point where I would have flipped the table and walked away. I almost closed the book then and there, but it was so close to the end that I pushed on. In the end, the heroes actually cannot defeat the wood by fighting it, and…*I guess that was the point*? 
 
-
+![Woman rubbing face with hand in frustration, saying 'I guess so'](https://tenor.com/view/i-guess-so-theodora-crain-kate-siegel-the-haunting-of-hill-house-i-think-so-gif-18990707.gif)
 
 Instead, Angie gets tossed into a heart tree, and gets a thesaurus-sized lore dump on the history of the wood. She learns that there was once an entire race of immortal tree-people living peacefully in the woods. The tree-people and a previous kingdom of humans once lived together in (relative) harmony, and that one of the tree-people had married the human king. However, the humans grew scared of the tree-people, and the king’s son (presumably from a previous marriage) had the tree-queen sealed up inside her husband’s tomb. So, naturally, she broke out, rejoined her people, and lived happily ever after…
 
 Just kidding, the tree-people decided to all go into permanent hibernation and become full-trees, and the tree-queen arrived too late, and too full of hatred to join them. She swore eternal vengeance on mankind and, boom, evil woods.
 
 Angie learns all of this, finds her way out of the heart tree, and *[Power of Love](https://tvtropes.org/pmwiki/pmwiki.php/Main/ThePowerOfLove)*’s  her way to a happy-ish ending for everyone – yay! The entire experience felt jarring, and left me exhausted. But the thing that really made it hard to enjoy this book was…
-
-
 
 ## The Characters
 
