@@ -15,7 +15,7 @@ There’s a lot to like in this book, and I’ll be diving into as much as I can
 
 **Warning: \*\*\*Minor Spoilers Ahead\*\*\***
 
-Opening on city engulfed in the flames of a bloody revolution, introverted librarian Kiela and her assistant Caz (a sentient spider plant), make a last-minute escape from the great library, heading out to sea in a dinghy laden with crates of carefully cataloged spell books. With nowhere else to go, Kiela settles on dropping anchor at the remote island of Caltrey, the place she was born, raised, and never expected to return after her parents sought out a better life in the capital city of Alyssium.
+Opening on a city engulfed in the flames of a bloody revolution, introverted librarian Kiela and her assistant Caz (a sentient spider plant), make a last-minute escape from the great library, heading out to sea in a dinghy laden with crates of carefully cataloged spell books. With nowhere else to go, Kiela settles on dropping anchor at the remote island of Caltrey, the place she was born, raised, and never expected to return after her parents sought out a better life in the capital city of Alyssium.
 
 After she arrives, Kiela tries to keep completely unnoticed, hoping the islanders never suspect that anyone, let alone a former Caltreyan, has moved back into her parent’s abandoned, vine-choked cottage outside the island’s village. We quickly learn that she’s not just trying to avoid people out of her own preferences, though. It turns out, by leaving with a number of valuable and highly controlled texts of magic, Kiela and Caz have broken some very stringent imperial laws – assuming the empire still exists, but Kiela’s not about to head back and find out – and the penalty for doing so would be death, at best. Nevertheless, they don’t remain unknown for too long.
 
@@ -25,13 +25,9 @@ The Spellshop takes it very slow once Kiela and Caz arrive on the island, someti
 
 As we follow Kiela and Caz along, we start to learn more about the world they inhabit, and through all of the friends she (hesitantly at first) makes along the way, the strong sense of community the islanders share. We see selflessness and kindness win out over fear and greed, and Kiela slowly comes out of her shell as she discovers that she does need people in her life – especially those who want to be in it.
 
-
-
 > Family isn’t always the people you’re related to.
 >
 > \- Larran
-
-
 
 While the book absolutely won me over in the end, I did struggle with it at times. The slow-burning hallmark movie-style romance, coupled with Kiela’s near-pathological self-esteem issues dragged the story out several chapters more than felt necessary. Early parts of the novel also suffer from an overabundance of telling instead of showing, with Kiela’s inner monologue giving the audience a firehose of exposition about her world. In fairness, it’s very clear that our blue-haired heroine is several flavors of neurodivergent, so my distaste for this could be colored by my own self-consciousness.
 
